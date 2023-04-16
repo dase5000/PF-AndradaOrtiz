@@ -1,0 +1,34 @@
+// MAIN
+#h1BannerInd{
+    color: #fff;
+            font-size: 30px;
+            font-weight: 400;
+            margin-top: 23px;
+            padding: 10px 0px;
+            line-height: 40%;
+    }
+.mainInd{
+    background-color: #4D4D5C;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    .divUno{
+        padding: 30px 30px;
+        p{
+            font-size: 20px;
+            text-align: justify;
+            line-height: 2;
+            color: white;
+        }
+    }
+    .divDos{
+        padding: 10px 30px;
+        img{
+            @include borde(solid, #fff, 3px);
+            border-radius: 100%;
+            width: 500px;
+            height: 400px;
+        }
+    }
+}

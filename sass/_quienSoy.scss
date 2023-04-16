@@ -1,0 +1,25 @@
+.mainQuien{
+    background-color: #4D4D5C;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    .divUnoQ{
+        padding: 50px 50px;
+        p{
+            font-size: 20px;
+            text-align: justify;
+            line-height: 2;
+            color: white;
+        }
+    }
+    .divDosQ{
+        padding: 20px 40px;
+        img{
+            @include borde(solid, #fff, 3px);
+            border-radius: 100%;
+            width: 500px;
+            height: 400px;
+        }
+    }
+}

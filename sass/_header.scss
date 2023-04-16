@@ -1,0 +1,36 @@
+header{
+    height: 100px;
+    background: #4D4D5C;
+    padding: 0 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 96px;
+    width: 278px;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+.mostrar-menu, .esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+.mostrar-menu{
+    order:1;
+}
+.menu a:hover, 
+.mostrar-menu:hover, 
+.esconder-menu:hover{
+    color: gray;
+}
+#check{
+    display: none;
+}
