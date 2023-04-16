@@ -263,5 +263,82 @@
     padding: 35px 0px;
     } 
 }
+// RESPONSIVE A 320
+@media screen and (max-width: 320px){
+    .banner{
+        width: 318vw;
+        padding: 0 20px;
+    }    
+    header{
+        padding: 0 30px;
+        .logo{
+            height: 96px;
+            width: 200px;
+        }
+    }
+    /* INDEX */
+    #h1BannerInd{
+        color: #fff;
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: 15px;
+        margin-bottom: 1px;
+        padding: 5px 0px;
+        line-height: 37px;
+}
+    .mainInd{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 1800px;
+        padding: 50px 50px;
+        .divDos{
+            padding: 10px 30px;
+            img{
+                border-radius: 100%;
+                width: 200px;
+                height: 200px;
+                border: white solid 3px;
+            }
+        }
+    }  
+    /* SERVICIOS */
+    #h1Banner{
+            color: #fff;
+            font-size: 30px;
+            font-weight: 400;
+            margin-top: 15px;
+            margin-bottom: 1px;
+            padding: 5px 0px;
+            line-height: 37px;
+    }
+    .h2Banner{
+            margin-top: 1px;
+            font-size: x-large;
+            padding-top: 1px;
+            font-weight: bold;
+            padding-top: 5px;
+    }
+    .titServ{
+    padding: 40px 10px;
+    margin-left: 20px;
+    color: #fff;   
+    }
+    /* QUIEN SOY */
+    .mainQuien{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 3400px;
+        padding: 50px 50px;
+        .divDosQ{
+            padding: 10px 30px;
+            img{
+                border-radius: 100%;
+                width: 200px;
+                height: 200px;
+                border: white solid 3px;
+            }
+        }
+    } 
+}
 
 
